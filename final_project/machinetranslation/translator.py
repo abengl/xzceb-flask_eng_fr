@@ -4,7 +4,7 @@ from deep_translator import MyMemoryTranslator
 
 def english_to_french(english_text):
     """
-    This function translates a string from English to French
+    This function translates text from English to French
     """
     french_text = MyMemoryTranslator(
         source='english', target='french').translate(english_text)
@@ -13,7 +13,7 @@ def english_to_french(english_text):
 
 def french_to_english(french_text):
     """
-    This function translates a string from French to English
+    This function translates text from French to English
     """
     english_text = MyMemoryTranslator(
         source='french', target='english').translate(french_text)
