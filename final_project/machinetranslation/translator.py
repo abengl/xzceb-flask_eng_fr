@@ -7,7 +7,7 @@ def english_to_french(english_text):
     This function translates a string from English to French
     """
     french_text = MyMemoryTranslator(
-        source='en-AU', target='french').translate(english_text)
+        source='english', target='french').translate(english_text)
     return french_text
 
 
